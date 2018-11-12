@@ -42,5 +42,5 @@
 
   <node pkg="rqt_image_view" type="rqt_image_view"
         name="imview" output="screen"
-        args="/downward/image_overlay">
+        args="/downward/image_overlay"/>
 </launch>

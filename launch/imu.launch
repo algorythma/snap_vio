@@ -1,0 +1,7 @@
+<launch>
+
+<node pkg="nodelet" type="nodelet" name="snap_imu_nodelet"
+          args="load snap_imu/driver vio_nodelet_man" output="screen">
+    </node>
+
+</launch>
